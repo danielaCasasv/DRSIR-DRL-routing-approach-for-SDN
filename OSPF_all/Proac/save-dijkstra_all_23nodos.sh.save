@@ -1,0 +1,5 @@
+sudo pkill -f ryu
+sleep 0.3                         /media/sf_SharedVM_RyuDRL/links-metrics/23nodos/OSPF_all/Ryu/IntraTM-2/IntraTM-2005-01-02-01-00005-01-02-01-00
+cp -R stretch/ Metrics/ times.txt /media/sf_SharedVM_RyuDRL/links-metrics/23nodos/OSPF_all/Ryu/TM-$1/
+sleep 0.3
+sudo sh clear.sh

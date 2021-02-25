@@ -1,0 +1,4 @@
+dijsktra with cost metric based on link delay, link loss and link bwd
+
+In ~/ryu execute:
+python ./bin/ryu-manager --observe-links --ofp-tcp-listen-port 6633 ryu/app/OSPF_all/Proac/simple_monitor.py
